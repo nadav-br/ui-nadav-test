@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ui-nadav-test/static/css/main.ba83b729.chunk.css",
+    "main.js": "/ui-nadav-test/static/js/main.79f48907.chunk.js",
+    "main.js.map": "/ui-nadav-test/static/js/main.79f48907.chunk.js.map",
+    "runtime-main.js": "/ui-nadav-test/static/js/runtime-main.99bb5903.js",
+    "runtime-main.js.map": "/ui-nadav-test/static/js/runtime-main.99bb5903.js.map",
+    "static/js/2.d9cb5142.chunk.js": "/ui-nadav-test/static/js/2.d9cb5142.chunk.js",
+    "static/js/2.d9cb5142.chunk.js.map": "/ui-nadav-test/static/js/2.d9cb5142.chunk.js.map",
+    "static/js/3.fa4de52a.chunk.js": "/ui-nadav-test/static/js/3.fa4de52a.chunk.js",
+    "static/js/3.fa4de52a.chunk.js.map": "/ui-nadav-test/static/js/3.fa4de52a.chunk.js.map",
+    "index.html": "/ui-nadav-test/index.html",
+    "static/css/main.ba83b729.chunk.css.map": "/ui-nadav-test/static/css/main.ba83b729.chunk.css.map",
+    "static/js/2.d9cb5142.chunk.js.LICENSE.txt": "/ui-nadav-test/static/js/2.d9cb5142.chunk.js.LICENSE.txt",
+    "static/media/face2.d43b5fa3.jpg": "/ui-nadav-test/static/media/face2.d43b5fa3.jpg",
+    "static/media/mail-24px.85bec5ee.svg": "/ui-nadav-test/static/media/mail-24px.85bec5ee.svg",
+    "static/media/menu-24px.3c91bcc8.svg": "/ui-nadav-test/static/media/menu-24px.3c91bcc8.svg",
+    "static/media/more-24px.svg": "/ui-nadav-test/static/media/more-24px.5836aa97.svg",
+    "static/media/notification-24px.1bf78ac6.svg": "/ui-nadav-test/static/media/notification-24px.1bf78ac6.svg",
+    "static/media/search-24px.bc2178ae.svg": "/ui-nadav-test/static/media/search-24px.bc2178ae.svg",
+    "static/media/user-24px.107ac4da.svg": "/ui-nadav-test/static/media/user-24px.107ac4da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99bb5903.js",
+    "static/js/2.d9cb5142.chunk.js",
+    "static/css/main.ba83b729.chunk.css",
+    "static/js/main.79f48907.chunk.js"
+  ]
+}
