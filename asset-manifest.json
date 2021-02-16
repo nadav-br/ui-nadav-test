@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ui-nadav-test/static/css/main.c8eb26e6.chunk.css",
-    "main.js": "/ui-nadav-test/static/js/main.f258f8c1.chunk.js",
-    "main.js.map": "/ui-nadav-test/static/js/main.f258f8c1.chunk.js.map",
+    "main.css": "/ui-nadav-test/static/css/main.9ce02871.chunk.css",
+    "main.js": "/ui-nadav-test/static/js/main.3e54a048.chunk.js",
+    "main.js.map": "/ui-nadav-test/static/js/main.3e54a048.chunk.js.map",
     "runtime-main.js": "/ui-nadav-test/static/js/runtime-main.99bb5903.js",
     "runtime-main.js.map": "/ui-nadav-test/static/js/runtime-main.99bb5903.js.map",
     "static/js/2.d9cb5142.chunk.js": "/ui-nadav-test/static/js/2.d9cb5142.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fa4de52a.chunk.js": "/ui-nadav-test/static/js/3.fa4de52a.chunk.js",
     "static/js/3.fa4de52a.chunk.js.map": "/ui-nadav-test/static/js/3.fa4de52a.chunk.js.map",
     "index.html": "/ui-nadav-test/index.html",
-    "static/css/main.c8eb26e6.chunk.css.map": "/ui-nadav-test/static/css/main.c8eb26e6.chunk.css.map",
+    "static/css/main.9ce02871.chunk.css.map": "/ui-nadav-test/static/css/main.9ce02871.chunk.css.map",
     "static/js/2.d9cb5142.chunk.js.LICENSE.txt": "/ui-nadav-test/static/js/2.d9cb5142.chunk.js.LICENSE.txt",
     "static/media/face2.d43b5fa3.jpg": "/ui-nadav-test/static/media/face2.d43b5fa3.jpg",
     "static/media/mail-24px.85bec5ee.svg": "/ui-nadav-test/static/media/mail-24px.85bec5ee.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.99bb5903.js",
     "static/js/2.d9cb5142.chunk.js",
-    "static/css/main.c8eb26e6.chunk.css",
-    "static/js/main.f258f8c1.chunk.js"
+    "static/css/main.9ce02871.chunk.css",
+    "static/js/main.3e54a048.chunk.js"
   ]
 }
