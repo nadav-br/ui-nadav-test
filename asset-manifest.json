@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ui-nadav-test/static/css/main.ba83b729.chunk.css",
-    "main.js": "/ui-nadav-test/static/js/main.9bb0d0fe.chunk.js",
-    "main.js.map": "/ui-nadav-test/static/js/main.9bb0d0fe.chunk.js.map",
+    "main.js": "/ui-nadav-test/static/js/main.42517404.chunk.js",
+    "main.js.map": "/ui-nadav-test/static/js/main.42517404.chunk.js.map",
     "runtime-main.js": "/ui-nadav-test/static/js/runtime-main.99bb5903.js",
     "runtime-main.js.map": "/ui-nadav-test/static/js/runtime-main.99bb5903.js.map",
     "static/js/2.d9cb5142.chunk.js": "/ui-nadav-test/static/js/2.d9cb5142.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.99bb5903.js",
     "static/js/2.d9cb5142.chunk.js",
     "static/css/main.ba83b729.chunk.css",
-    "static/js/main.9bb0d0fe.chunk.js"
+    "static/js/main.42517404.chunk.js"
   ]
 }
