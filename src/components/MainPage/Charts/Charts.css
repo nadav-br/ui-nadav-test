@@ -1,0 +1,36 @@
+/* .continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.chart-header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chart-img {
+    min-width: 30%;
+}
+
+.chart-select {
+    background-color: #5584ff;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.chart-option {
+    background-color: white;
+    color: black;
+} */

@@ -1,0 +1,27 @@
+.counters-wrapper {
+    display: flex;
+    align-items: center;
+
+    .counted {
+        background-color: #5584ff;
+        color: #ffff;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tasks-feed .expired {
+        background-color: #f83c7b;
+        color: #ffff;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

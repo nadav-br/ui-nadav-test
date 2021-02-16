@@ -1,4 +1,15 @@
-.App {
+.wrapper > * {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

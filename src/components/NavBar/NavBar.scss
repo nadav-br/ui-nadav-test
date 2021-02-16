@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #0E1A35;
+    width: 200px;
+
+    .navbar-list {
+        display: flex;
+        list-style: none;
+        color: #ffff;
+        flex-direction:column;
+        
+        
+        // .navbar-items:hover {
+        //     border-left: 5px solid #5584FF;
+        //     background-color: #122143;
+        // }
+    }
+    
+}
