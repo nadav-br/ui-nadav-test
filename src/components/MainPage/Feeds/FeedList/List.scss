@@ -1,7 +1,24 @@
 .lists {
     display: flex;
+    align-items: center;
     border-bottom: 1px solid #dadee7;
     padding:10px 20px;
-   
 
+    &.clicked {
+        background-color: #f7f9fa;
+    }
+    .expired {
+        color: #f83c7b
+    }
+
+    .letter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+        border-radius: 50%;
+        background-color: #5584ff;
+        height: 30px;
+        width: 30px;
+    }
 }

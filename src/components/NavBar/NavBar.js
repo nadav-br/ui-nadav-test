@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import NavItems from './NavItems/NavItems'
 import Img from '../../icons/Image/Image'
-import Logo from '../../assets/mail-24px.svg';
+import Logo from '../../assets/logo_merkury.png';
 import './NavBar.scss';
 
 function NavBar() {   

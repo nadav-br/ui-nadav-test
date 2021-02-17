@@ -1,16 +1,12 @@
 .row {
     display:flex;
     margin: 0 -12px 12px;
-    .list {
+    .feed {
         display:flex;
         justify-content: center;
         flex:1; 
         background-color:#fff;
         border:1px solid #dadee7;
-        margin:0 12px;
-        
-    
-        
-    }
-    
+        margin:0 12px;        
+    }   
 }

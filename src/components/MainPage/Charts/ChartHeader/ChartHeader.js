@@ -1,6 +1,6 @@
-import React from 'react'
-import ButtonDropdown from './ButtonDropdown/ButtonDropdown'
-import './ChartHeader.scss'
+import React from 'react';
+import ButtonDropdown from './ButtonDropdown/ButtonDropdown';
+import './ChartHeader.scss';
 
 function ChartHeader({title}) {
     return (

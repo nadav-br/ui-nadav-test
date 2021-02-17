@@ -1,4 +1,7 @@
   .app {
     display: flex;
-  
+    
+    .layout {
+      flex:100%;
+    }
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-import FeedTitle from './FeedTitle/FeedTitle'
-import TaskList from './FeedList/TaskList'
+import FeedTitle from './FeedTitle/FeedTitle';
+import TaskList from './FeedList/TaskList';
 import './Feeds.scss';
 
 function TasksFeed({count, expired, title, users }) {
-    console.log(users)
+
     return (
-        <div className="tasks-feed">
+        <div>
             <FeedTitle count={count} title={title} expired={expired} />
             <TaskList users={users} /> 
         </div>

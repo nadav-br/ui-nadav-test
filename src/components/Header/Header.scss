@@ -4,8 +4,19 @@
     background-color: #fff;
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding:15px;    
-    z-index: 10;    
+    z-index: 10; 
 
+    .search-btn {
+        padding:0;
+        background-color: #fff;
+        border:0;
+        outline: 0;
+    
+        &:active {
+            visibility: hidden;
+        }
+    }
+    
     .header-left {
         display:flex;
         align-items: center;
@@ -18,7 +29,6 @@
             outline: none;
             color: #fff;
             background-color: #5584ff;
-        }
-        
+        }       
     }
 }

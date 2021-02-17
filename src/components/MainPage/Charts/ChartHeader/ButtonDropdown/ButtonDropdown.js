@@ -1,6 +1,8 @@
-import React from 'react'
-import './ButtonDropdown.scss'
+import React from 'react';
+import './ButtonDropdown.scss';
+
 function ButtonDropdown() {
+    
     return (
         <div class="select-dropdown">
             <select className='chart-select'>

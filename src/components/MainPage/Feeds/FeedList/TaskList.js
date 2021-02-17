@@ -1,24 +1,25 @@
-import React from 'react'
-import Img from '../../../../icons/Image/Image'
-import './List.scss'
+import React from 'react';
+import Img from '../../../../icons/Image/Image';
+import './List.scss';
+import dotsIcon from '../../../../assets/more-24px.svg'
+
 function TaskList({users}) {
-    
-    return (
-        
-        <div>
+    // console.log(users.map(user => user.message.charAt(0)))
+    return (        
+        <>
             {users.map(user => {
-                return (
-                    // <li>                                                                              
-                        <div className="lists">
-                            <Img image={user.image} />
-                            {user.message}
-                            <div className="date">{user.taskDate}</div>
-                            <Img className="more-img" image={user.more} /> 
-                        </div>                                                                            
-                    // </li>
+                return (                                                                            
+                    <div className="lists">
+                        <div className="letter">{user.message.charAt(0).toUpperCase()}</div>
+                        {user.message}
+                        <div className={`date ${user.expired ? 'expired' : ''}`}>
+                            {user.taskDate}
+                        </div>
+                        <Img className="more-img" image={dotsIcon} /> 
+                    </div> 
                 )}
             )}            
-        </div>
+        </>
     )
 }
 
