@@ -5,7 +5,7 @@ import './FeedTitle.scss'
 function FeedTitle({title, count, expired}) {
     return (
         <div className="feed-title">
-            <h3>{title}</h3>
+            <h4>{title}</h4>
             <Counter count={count} expired={expired} />               
         </div>
     )

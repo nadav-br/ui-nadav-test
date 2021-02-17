@@ -11,9 +11,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 3px;
     }
     
-    .tasks-feed .expired {
+     .expired {
         background-color: #f83c7b;
         color: #ffff;
         border-radius: 50%;
@@ -22,6 +23,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 3px;
+        &:empty {
+            display: none;
+        }
+
     }
 }
 

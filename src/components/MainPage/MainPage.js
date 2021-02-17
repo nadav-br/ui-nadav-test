@@ -1,10 +1,11 @@
 import React, {useState, useEffect, useContext } from 'react';
 import Charts from './Charts/Charts';
 import TasksFeed from './Feeds/TasksFeed';
-import UsersFeed from './Feeds/UsersFeed';
+import MessagesFeed from './Feeds/MessagesFeed';
+import ActivitiesFeed from './Feeds/ActivitiesFeed';
 import { Link } from "react-router-dom";
 import './MainPage.scss';
-import pieChart from '../../assets/phi-chart.jpg';
+import pieChart from '../../assets/pie-chart.png';
 import lineChart from '../../assets/LineChart.png';
 import {UsersContext} from '../../context/UserContext';
 import moment from 'moment';
@@ -22,7 +23,7 @@ function MainPage() {
     useEffect(()=> {
         const count = users.filter(user => user.isClicked === true)
             setCounter(count.length)
-                // document.querySelector('.messages-feed').style.background = "#f83c7b"
+            document.querySelector('.users').style.background = "#f7f9fa"
     },[])
     
     useEffect(() => {
@@ -31,8 +32,8 @@ function MainPage() {
             if(moment(user.date).diff(today, 'days') < 0) {
                 const delaySum = (Date.parse(today) - Date.parse(user.date)) / (1000 * 60 * 60 * 24)
                 user.taskDate = `${delaySum.toFixed()} days delay`
-                // const bg = document.querySelector('.subtitle')
-                // bg.style.color = "#f83c7b"
+                const bg = document.querySelector('.date')
+                bg.style.color = "#f83c7b"
             } else if(moment(user.date).diff(today, 'days') > 0) {
                 const daysLeft = (Date.parse(user.date) - Date.parse(today)) / (1000 * 60 * 60 * 24)
                 user.taskDate = `${daysLeft.toFixed()} days left`
@@ -43,33 +44,30 @@ function MainPage() {
       }, [expired])    
 
     return (
-        <div className="page-wrapper">
+        <div className="main">
             <div className="content-title">
-            <h2>Hello Yaniv</h2>
+                <h2>Hello John</h2>
             </div>
-            <div  className='charts row'>
+            <div className='charts row'>
                 <div className="box chart-a">
                     <Charts title='Your Sales' image={pieChart} />
                 </div>
                 <div className="box chart-b">
-                <Charts title='Reports' image={lineChart} /> 
+                    <Charts title='Reports' image={lineChart} /> 
                 </div>
                 
             </div>  
-            <div class="lists row">
-                <div className="list tasks-feed">
-                <TasksFeed count={users.length} expired={expired} title="Tasks" users={users} />
+            <div class="row">
+                <div className="list tasks">
+                    <TasksFeed count={users.length} expired={expired} title="Tasks" users={users} />
                 </div>
-                <div className="list messages-feed">
-                <UsersFeed count={counter} users={users} title="Messages" />
+                <div className="list messages">
+                    <MessagesFeed count={counter} title="Messages" users={users} />
                 </div>
-                <div className="list activities-feed">
-                <UsersFeed count={users.length} title="Activities" users={users} />
-                </div>
-                
-                
-            </div>           
-            
+                <div className="list activities">
+                    <ActivitiesFeed count={users.length} title="Activities" users={users} />
+                </div>  
+            </div> 
         </div>
     )
 }

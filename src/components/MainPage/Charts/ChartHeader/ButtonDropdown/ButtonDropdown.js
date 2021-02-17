@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './ButtonDropdown.scss'
 function ButtonDropdown() {
     return (
-        <div>
+        <div class="select-dropdown">
             <select className='chart-select'>
                 <option className='chart-option'>Period: </option>
                 <option >Last week</option>

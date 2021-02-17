@@ -17,17 +17,17 @@ function App() {
   return (
     <div className="app">
       <UsersProvider>
-      <Router>                     
-            <Header />
-            <div className="main">
-            <NavBar />                        
+      <Router> 
+            <NavBar />
+            <div className="layout">                                    
+            <Header />                    
             <Switch>
-              <Route path="/home" exact component={MainPage} />  
-              <Route path="/Workflow" exact component={Workflow} />
-              <Route path="/Statistics" exact component={Statistics} /> 
-              <Route path="/Calender" exact component={Calender} />
-              <Route path="/Users" exact component={Users} />       
-              <Route path="/Settings" exact component={Settings} /> 
+              <Route path="/ui-nadav-test" exact component={MainPage} />  
+              <Route path="/ui-nadav-test/Workflow" exact component={Workflow} />
+              <Route path="/ui-nadav-test/Statistics" exact component={Statistics} /> 
+              <Route path="/ui-nadav-test/Calender" exact component={Calender} />
+              <Route path="/ui-nadav-test/Users" exact component={Users} />       
+              <Route path="/ui-nadav-test/Settings" exact component={Settings} /> 
             </Switch>   
             </div>
                    

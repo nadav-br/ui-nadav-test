@@ -12,13 +12,14 @@ function Header() {
        
     return (
         <div className="header">
-                <Burger />
-                <Img image={search} />
+            <Burger />
+            <Img image={search} />
+            <div className="header-left"> 
                 <Button name="+ Add Project" />
                 <Img image={mail} />
                 <Img image={notify} />
-                <Img image={user} />
-                
+                <Img image={user} />                
+            </div>                
         </div>
     )
 }

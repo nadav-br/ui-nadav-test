@@ -1,19 +1,19 @@
-.page-wrapper {
+.main {
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: #f6f7fa;
+    padding: 0px 20px;
 
     .content-title {
-        padding: 10px 0;
-        color:#000
+        padding:30px 0 20px;
+        h2 {
+            font-size:20px;
+            font-weight: bold;
+            color:#0e1a35;
+        }   
+        
     }
     
-    .content-title h2 {
-        font-size:20px;
-    }
-
-    
-
     
     
 }

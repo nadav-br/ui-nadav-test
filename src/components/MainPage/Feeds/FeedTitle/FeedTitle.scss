@@ -1,6 +1,15 @@
 .feed-title {
-    // display: flex;
-    // flex-wrap: wrap;
-    // flex-direction: row;
-    // justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadee7;
+    
+    h4 {
+        font-weight: normal;
+        color:#0e1a35;        
+        font-weight: bold;
+        
+    }
 }

@@ -1,10 +1,16 @@
 .row {
     display:flex;
-    
+    margin: 0 -12px 12px;
     .list {
+        display:flex;
+        justify-content: center;
         flex:1; 
-        margin:20px 20px;
         background-color:#fff;
+        border:1px solid #dadee7;
+        margin:0 12px;
+        
+    
+        
     }
     
 }

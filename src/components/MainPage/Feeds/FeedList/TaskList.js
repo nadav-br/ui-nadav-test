@@ -1,7 +1,7 @@
 import React from 'react'
 import Img from '../../../../icons/Image/Image'
-
-function TaskList({image, message, taskDate, more, users}) {
+import './List.scss'
+function TaskList({users}) {
     
     return (
         
@@ -9,7 +9,7 @@ function TaskList({image, message, taskDate, more, users}) {
             {users.map(user => {
                 return (
                     // <li>                                                                              
-                        <div>
+                        <div className="lists">
                             <Img image={user.image} />
                             {user.message}
                             <div className="date">{user.taskDate}</div>

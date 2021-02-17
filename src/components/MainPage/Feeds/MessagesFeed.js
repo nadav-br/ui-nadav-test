@@ -1,17 +1,17 @@
 import React from 'react'
 import FeedTitle from './FeedTitle/FeedTitle'
-import UsersList from './FeedList/UsersList'
+import MessagesList from './FeedList/MessagesList'
 import './Feeds.scss'
 
-function UsersFeed({count, title, users, handelCounter, image}) {
+function MessagesFeed({count, title, users}) {
 
     console.log(users)
     return (
         <div className="users-feed">
             <FeedTitle count={count} title={title} />              
-            <UsersList users={users} />
+            <MessagesList users={users} />
         </div>
     )
 }
 
-export default UsersFeed
+export default MessagesFeed
