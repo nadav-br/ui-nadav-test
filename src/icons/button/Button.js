@@ -2,9 +2,9 @@ import React from 'react'
 
 function Button({name}) {
     return (
-        <div>
+        <span>
             <button>{name}</button>
-        </div>
+        </span>
     )
 }
 

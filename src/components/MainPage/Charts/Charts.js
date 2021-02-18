@@ -5,7 +5,7 @@ import './Charts.scss';
 
 function Charts({title, image}) {
     return (
-        <div>
+        <div class="chart-wrap">
             <ChartHeader title={title} />     
             <ChartBody image={image} />
         </div>

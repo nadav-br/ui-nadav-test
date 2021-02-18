@@ -1,8 +1,12 @@
 import React from 'react'
 
 function Calender() {
-    return (
-        <h1>Calender</h1>
+    return (        
+        <div className="main">
+            <div className="content-title">
+            <h2>Calender</h2>
+            </div>
+        </div>
     )
 }
 

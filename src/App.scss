@@ -1,7 +1,9 @@
   .app {
     display: flex;
-    
+    height: 100%;
     .layout {
-      flex:100%;
+      background: #f6f7fa;
+      width: 100%;
     }
+   
 }

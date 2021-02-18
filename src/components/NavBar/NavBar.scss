@@ -1,10 +1,22 @@
 .navbar {
+    padding-top:20px;
     background-color: #0e1a35;
-flex:0 0 200px;
-max-width: 200px;
+    flex:0 0 200px;
+    max-width: 200px;
+.logo-company {
+   display:block;padding-left:30px;
+   .logo-small {
+       display:none;
+   }
+    img {
+        width:100px;
+    }
+
+}
     .navbar-list  {
         display: flex;
         flex-direction: column;
+        padding-top:25px;
         a  {
             border-left:4px solid transparent;
             display: block;        
@@ -25,4 +37,59 @@ max-width: 200px;
 
 .resize {
     flex:0 0 100px;
+    .logo-company {
+        display:flex;
+            justify-content: center;
+            padding:0;
+        span {
+            display:none;
+        }
+        .logo-small {
+            display:block!important;
+            img  {
+                width:55px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1228px) {  
+
+    .navbar {
+        flex: 0 0 100px;
+        max-width: 100px;
+        .logo-company {
+            display:flex;
+            justify-content: center;
+            padding:0;
+            span {
+                display:none;
+            }
+            .logo-small {
+                display:block!important;
+                img  {
+                    width:55px;
+                }
+            }
+        }
+        .navbar-list {
+            a {
+                display:flex;
+                padding:18px 0;
+                justify-content:center;
+            }
+        }
+    }
+   
+}
+
+@media all and (max-width: 768px) {
+    /* start of phone styles */
+    .navbar {
+        display: none;
+    }
+    // .header {
+    //     display: flex;
+    //     position: fixed;
+    // }
 }

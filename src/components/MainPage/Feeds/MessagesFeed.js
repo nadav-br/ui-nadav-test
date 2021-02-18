@@ -6,7 +6,7 @@ import './Feeds.scss';
 function MessagesFeed({count, title, users}) {
 
     return (
-        <div>
+        <div class="box-wrapper">
             <FeedTitle count={count} title={title} />              
             <MessagesList users={users} />
         </div>

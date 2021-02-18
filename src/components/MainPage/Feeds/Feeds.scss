@@ -1,6 +1,7 @@
 .row {
     display:flex;
     margin: 0 -12px 12px;
+    
     .feed {
         display:flex;
         justify-content: center;
@@ -9,4 +10,19 @@
         border:1px solid #dadee7;
         margin:0 12px;        
     }   
+}
+
+.box-wrapper {width:100%;}
+
+
+@media all and (max-width: 800px) { 
+.row {
+    flex-wrap: wrap;
+    flex-direction:column;
+    .feed {
+        margin-bottom:15px;
+    }
+}
+
+
 }

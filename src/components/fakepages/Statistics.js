@@ -2,7 +2,11 @@ import React from 'react'
 
 function Statistics() {
     return (
-        <h1>Statistics</h1>
+        <div className="main">
+            <div className="content-title">
+            <h2>Statistics</h2>
+            </div>
+        </div>
     )
 }
 

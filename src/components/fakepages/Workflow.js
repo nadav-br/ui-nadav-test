@@ -2,8 +2,10 @@ import React from 'react'
 
 function Workflow() {
     return (
-        <div>
-            <h1>WorkFlow</h1>
+        <div className="main">
+            <div className="content-title">
+            <h2>WorkFlow</h2>
+            </div>
         </div>
     )
 }

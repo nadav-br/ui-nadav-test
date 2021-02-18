@@ -6,7 +6,7 @@ import './Feeds.scss';
 function TasksFeed({count, expired, title, users }) {
 
     return (
-        <div>
+        <div class="box-wrapper">
             <FeedTitle count={count} title={title} expired={expired} />
             <TaskList users={users} /> 
         </div>

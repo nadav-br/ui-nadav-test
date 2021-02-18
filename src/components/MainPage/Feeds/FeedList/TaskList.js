@@ -10,12 +10,16 @@ function TaskList({users}) {
             {users.map(user => {
                 return (                                                                            
                     <div className="lists">
-                        <div className="letter">{user.message.charAt(0).toUpperCase()}</div>
-                        {user.message}
-                        <div className={`date ${user.expired ? 'expired' : ''}`}>
+                        <span className="letter">{user.message.charAt(0).toUpperCase()}</span>
+                        <div className="title-and-date">
+                       <p>{user.message}</p> 
+                        <span className={`date ${user.expired ? 'expired' : ''}`}>
                             {user.taskDate}
+                        </span>
                         </div>
+                     <span className="more-icon">
                         <Img className="more-img" image={dotsIcon} /> 
+                        </span>
                     </div> 
                 )}
             )}            

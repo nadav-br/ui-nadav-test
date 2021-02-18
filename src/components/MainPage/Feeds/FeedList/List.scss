@@ -3,6 +3,7 @@
     align-items: center;
     border-bottom: 1px solid #dadee7;
     padding:10px 20px;
+    min-height: 40px;
 
     &.clicked {
         background-color: #f7f9fa;
@@ -12,13 +13,43 @@
     }
 
     .letter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #ffff;
+        display: inline-table;          
+        color: #fff;
         border-radius: 50%;
         background-color: #5584ff;
         height: 30px;
         width: 30px;
+        text-align: center;
+        line-height: 30px;
     }
+
+    image {
+        width: 43px;
+  height: 43px;
+  border-radius: 50%;
+    }
+
+    .title-and-date, .user-text  {
+        padding-left:10px;
+        color:#0e1a35;
+        font-size: 14px;
+        strong {
+            display:block;
+        }
+    }
+  
+    .more-icon {margin-left: auto;}
+    .date {
+      
+        font-size: 12px;
+        padding-top: 5px;
+        display: block;
+    
+    }
+    .user-icon {
+        img {
+            width: 30px;
+        }
+    }
+    
 }

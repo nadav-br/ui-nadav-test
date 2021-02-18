@@ -1,6 +1,7 @@
 import React from 'react';
 import Img from '../../../../icons/Image/Image';
 import './List.scss';
+import userImg from '../../../../assets/user-24px.svg'
 
 function MessagesList({users}) {
     
@@ -9,9 +10,15 @@ function MessagesList({users}) {
             {users.map(user => {
                 return (                                                                            
                     <div className={`lists ${user.isClicked ? 'clicked' : ''}`}> 
-                        <Img image={"/" + user.image} /> 
-                        {user.name} 
-                        {user.message}
+                        <span className="user-icon">
+                            <Img className="user-image" image={ userImg } /> 
+                        </span>
+                        <p className="user-text">
+                            <strong> {user.name} </strong>
+                            <span>    
+                                {user.message}
+                            </span>                   
+                        </p>                  
                     </div>
                 )}
             )}            

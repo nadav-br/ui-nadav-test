@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import NavItems from './NavItems/NavItems'
 import Img from '../../icons/Image/Image'
 import Logo from '../../assets/logo_merkury.png';
+import LogoSmall from '../../assets/logo_merkury_small.png';
 import './NavBar.scss';
 
 function NavBar() {   
@@ -11,6 +12,9 @@ function NavBar() {
         <aside className="navbar">
             <a href="#" className="logo-company">
                     <Img image={Logo} />
+                    <span className="logo-small">
+                        <img src={LogoSmall} />
+                        </span>
             </a>
             <nav>
                 <div className="navbar-list">

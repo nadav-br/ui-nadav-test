@@ -6,7 +6,7 @@ import './Feeds.scss';
 function ActivitiesFeed({count, title, users}) {
     
     return (
-        <div>
+        <div class="box-wrapper">
             <FeedTitle count={count} title={title} />              
             <ActivitiesList users={users} />
         </div>

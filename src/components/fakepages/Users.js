@@ -2,7 +2,11 @@ import React from 'react'
 
 function Users() {
     return (
-        <h1>Users</h1>
+        <div className="main">
+            <div className="content-title">
+            <h2>Users</h2>
+            </div>
+        </div>
     )
 }
 
