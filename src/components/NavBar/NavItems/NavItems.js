@@ -1,12 +1,12 @@
 import React from 'react';
-import './NavItems.scss'
+import './NavItems.scss';
 
-function NavItems({name}) {
+function NavItems({name ,image}) {
     return (
-        <>
-                        <i className="fas fa-fw fa-chart-area"></i>
-                        <span>{name}</span>                 
-        </>
+        <div className="menu-icons-wrap">
+            <i className="fas fa-fw fa-chart-area"><img src={image}/></i>
+            <span className="menu-name">{name}</span>                 
+        </div>
     )
 }
 

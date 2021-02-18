@@ -14,7 +14,7 @@ function Header() {
         <div className="header">
             <Burger />
             <button onClick={()=> {}} className="search-btn">
-            <Img image={search} />  
+                <Img image={search} />  
             </button>
             
             <div className="header-left"> 

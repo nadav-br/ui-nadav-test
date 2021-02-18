@@ -1,8 +1,6 @@
 import React, {useState, useEffect, useContext } from 'react';
 import Charts from './Charts/Charts';
-import TasksFeed from './Feeds/TasksFeed';
-import MessagesFeed from './Feeds/MessagesFeed';
-import ActivitiesFeed from './Feeds/ActivitiesFeed';
+import Feed from './Feeds/Feed';
 import './MainPage.scss';
 import pieChart from '../../assets/your-sales_graph.png';
 import lineChart from '../../assets/report_graph.png';
@@ -53,13 +51,13 @@ function MainPage() {
             </div>  
             <div class="row">
                 <div className="feed tasks">
-                    <TasksFeed count={users.length} expired={expired} title="Tasks" users={users} />
+                    <Feed count={users.length} expired={expired} title="Tasks" users={users} type="tasks" />
                 </div>
                 <div className="feed messages">
-                    <MessagesFeed count={counter} title="Messages" users={users} />
+                    <Feed count={counter} title="Messages" users={users} type="messages" />
                 </div>
                 <div className="feed activities">
-                    <ActivitiesFeed count={users.length} title="Activities" users={users} />
+                    <Feed count={users.length} title="Activities" users={users} type="activities" />
                 </div>  
             </div> 
         </div>

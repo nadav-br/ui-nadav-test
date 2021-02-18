@@ -2,7 +2,7 @@ import React from 'react';
 import Counter from './Counter/Counter';
 import './FeedTitle.scss';
 
-function FeedTitle({title, count, expired}) {
+function FeedTitle({ title, count, expired }) {
     
     return (
         <div className="feed-title">

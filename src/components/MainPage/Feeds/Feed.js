@@ -1,16 +1,16 @@
 import React from 'react';
 import FeedTitle from './FeedTitle/FeedTitle';
-import TaskList from './FeedList/TaskList';
+import List from './FeedList/List';
 import './Feeds.scss';
 
-function TasksFeed({count, expired, title, users }) {
-
+function Feed({ count, expired, title, users, type }) {
+    
     return (
         <div class="box-wrapper">
             <FeedTitle count={count} title={title} expired={expired} />
-            <TaskList users={users} /> 
+            <List users={users} type={type} /> 
         </div>
     )
 }
 
-export default TasksFeed
+export default Feed
