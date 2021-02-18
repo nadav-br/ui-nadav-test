@@ -1,30 +1,36 @@
 {
   "files": {
-    "main.css": "/ui-nadav-test/static/css/main.7bdde20a.chunk.css",
-    "main.js": "/ui-nadav-test/static/js/main.dea033bf.chunk.js",
-    "main.js.map": "/ui-nadav-test/static/js/main.dea033bf.chunk.js.map",
+    "main.css": "/ui-nadav-test/static/css/main.9dec4f13.chunk.css",
+    "main.js": "/ui-nadav-test/static/js/main.48d1d0c8.chunk.js",
+    "main.js.map": "/ui-nadav-test/static/js/main.48d1d0c8.chunk.js.map",
     "runtime-main.js": "/ui-nadav-test/static/js/runtime-main.a9e83b7b.js",
     "runtime-main.js.map": "/ui-nadav-test/static/js/runtime-main.a9e83b7b.js.map",
-    "static/js/2.905bf5cf.chunk.js": "/ui-nadav-test/static/js/2.905bf5cf.chunk.js",
-    "static/js/2.905bf5cf.chunk.js.map": "/ui-nadav-test/static/js/2.905bf5cf.chunk.js.map",
+    "static/js/2.51545ce9.chunk.js": "/ui-nadav-test/static/js/2.51545ce9.chunk.js",
+    "static/js/2.51545ce9.chunk.js.map": "/ui-nadav-test/static/js/2.51545ce9.chunk.js.map",
     "static/js/3.b23da129.chunk.js": "/ui-nadav-test/static/js/3.b23da129.chunk.js",
     "static/js/3.b23da129.chunk.js.map": "/ui-nadav-test/static/js/3.b23da129.chunk.js.map",
     "index.html": "/ui-nadav-test/index.html",
-    "static/css/main.7bdde20a.chunk.css.map": "/ui-nadav-test/static/css/main.7bdde20a.chunk.css.map",
-    "static/js/2.905bf5cf.chunk.js.LICENSE.txt": "/ui-nadav-test/static/js/2.905bf5cf.chunk.js.LICENSE.txt",
+    "static/css/main.9dec4f13.chunk.css.map": "/ui-nadav-test/static/css/main.9dec4f13.chunk.css.map",
+    "static/js/2.51545ce9.chunk.js.LICENSE.txt": "/ui-nadav-test/static/js/2.51545ce9.chunk.js.LICENSE.txt",
+    "static/media/agenda.e49528ca.svg": "/ui-nadav-test/static/media/agenda.e49528ca.svg",
+    "static/media/date_range.50da5d75.svg": "/ui-nadav-test/static/media/date_range.50da5d75.svg",
+    "static/media/home.8e1978bc.svg": "/ui-nadav-test/static/media/home.8e1978bc.svg",
     "static/media/mail-24px.85bec5ee.svg": "/ui-nadav-test/static/media/mail-24px.85bec5ee.svg",
     "static/media/menu-24px.3c91bcc8.svg": "/ui-nadav-test/static/media/menu-24px.3c91bcc8.svg",
     "static/media/more-24px.5836aa97.svg": "/ui-nadav-test/static/media/more-24px.5836aa97.svg",
     "static/media/notification-24px.1bf78ac6.svg": "/ui-nadav-test/static/media/notification-24px.1bf78ac6.svg",
+    "static/media/people.ae9fad29.svg": "/ui-nadav-test/static/media/people.ae9fad29.svg",
     "static/media/report_graph.f728fc31.png": "/ui-nadav-test/static/media/report_graph.f728fc31.png",
     "static/media/search-24px.bc2178ae.svg": "/ui-nadav-test/static/media/search-24px.bc2178ae.svg",
+    "static/media/settings.53c6aa61.svg": "/ui-nadav-test/static/media/settings.53c6aa61.svg",
+    "static/media/small_chart.941dfe7c.svg": "/ui-nadav-test/static/media/small_chart.941dfe7c.svg",
     "static/media/user-24px.107ac4da.svg": "/ui-nadav-test/static/media/user-24px.107ac4da.svg",
     "static/media/your-sales_graph.f6900bb8.png": "/ui-nadav-test/static/media/your-sales_graph.f6900bb8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9e83b7b.js",
-    "static/js/2.905bf5cf.chunk.js",
-    "static/css/main.7bdde20a.chunk.css",
-    "static/js/main.dea033bf.chunk.js"
+    "static/js/2.51545ce9.chunk.js",
+    "static/css/main.9dec4f13.chunk.css",
+    "static/js/main.48d1d0c8.chunk.js"
   ]
 }
