@@ -55,13 +55,13 @@ function List({users, type}) {
     }
 
     return (        
-        <>
+        <div className="body-wrapper">
             {users.map(user => {
                 return (                                                                            
                     typeItems[type](user)
                 )}
             )}            
-        </>
+        </div>
     )
 }
 

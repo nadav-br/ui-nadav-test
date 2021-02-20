@@ -57,6 +57,32 @@ export const UsersProvider = (props) => {
           "message": "did you get my message?",
           "activity": "free activities",
           "image": 'logo192.png'
+        },
+        {
+          "id": 5,
+          "name": "Erv Howe",
+          "isClicked": false,
+          "taskDate": "",
+          "username": "Antonette",
+          "email": "Shanna@melissa.tv",
+          "date": "2021-03-01",
+          "expired": false,
+          "message": "did you get my message?",
+          "activity": "free activities",
+          "image": 'logo192.png'
+        },
+        {
+          "id": 6,
+          "name": "vin well",
+          "isClicked": false,
+          "taskDate": "",
+          "username": "Antonette",
+          "email": "Shanna@melissa.tv",
+          "date": "2021-03-01",
+          "expired": false,
+          "message": "did you get my message?",
+          "activity": "free activities",
+          "image": 'logo192.png'
         }
       ])
       console.log(users)

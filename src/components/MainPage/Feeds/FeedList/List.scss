@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid #dadee7;
-    padding:10px 20px;
-    min-height: 40px;
+    min-height: 62px;
 
     &.clicked {
         background-color: #f7f9fa;
@@ -37,7 +36,7 @@
             display:block;
         }
     }
-  
+    
     .more-icon {margin-left: auto;}
     .date {
       
@@ -52,4 +51,10 @@
         }
     }
     
+}
+
+.body-wrapper {
+    flex: 1 1 auto;
+overflow-y: auto;
+height: 250px;
 }
